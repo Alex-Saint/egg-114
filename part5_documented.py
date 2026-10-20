@@ -78,9 +78,9 @@ def determineWinner(monster_health, player_health):
         player_health (int): Player's health.
     """
     if monster_health <= 0:
-        print("you killed the monster")
+        print("The monster died")
     if player_health <= 0:
-        print("the monster killed you")
+        print("The player died")
 
 
 def writeHealths(monster_health, player_health):
