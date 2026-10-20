@@ -1,0 +1,12 @@
+site_name: Battle Documentation
+
+theme:
+  name: material # Sets up a clean, modern UI out of the box
+
+plugins:
+  - search # Adds a functional search bar to your website
+  - mkdocstrings: # Extracts docstrings directly from your Python modules
+      handlers:
+        python:
+          options:
+            docstring_style: google # Supports google, numpy, or sphinx
